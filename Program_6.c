@@ -5,7 +5,7 @@ int main() {
   int i,j,temp;
   printf("Enter 10 numbers:\n");
 
-  for(i=0;i<=9;i++)
+  for(i=0;i<10;i++)
     {
       scanf("%d ", &a[i]);
       
@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-  for(i=0;i<=9;i++)
+  for(i=0;i<10;i++)
     {
       printf(" %d ", a[i]);
     }
